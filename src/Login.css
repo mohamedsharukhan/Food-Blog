@@ -1,0 +1,81 @@
+.loginPage {
+    text-align: center;
+    background-color: rgb(19, 62, 82) !important;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.loginPage div h1 {
+    font-size: 50px;
+    color: rgb(83, 69, 237);
+}
+
+.loginPage input {
+    border-radius: 20px;
+    margin: 3%;
+    width: auto;
+    text-align: center;
+    background-color: rgb(202, 201, 208);
+    color: rgb(18, 18, 19);
+
+}
+
+.btnSubmit {
+    border-radius: 20px;
+    width: 12vw;
+    background-color: rgb(8, 142, 175);
+    color: rgb(7, 4, 34);
+}
+
+
+.btnForget {
+    border-radius: 20px;
+    width: 12vw;
+    margin-bottom: 5vh;
+    background-color: rgb(8, 142, 175);
+    color: rgb(7, 4, 34);
+}
+
+.btnJoin {
+    border-radius: 20px;
+    width: 25vw;
+    margin-bottom: 5vh;
+    background-color: rgb(6, 98, 159);
+    color: rgb(224, 223, 230);
+
+}
+
+.modal-body {
+    padding: 0% !important;
+    border-radius: 7px 7px 0px 0px;
+    background-color: rgb(19, 62, 82);
+
+}
+
+
+.modal-content {
+
+    border-radius: 50px;
+    width: 60% !important;
+    display: inline-flex;
+    height: 30% !important;
+    margin-left: 20%;
+
+}
+.closeBtnDiv {
+    background-color: rgb(68, 85, 96) !important;
+    display: flex;
+    height: 55px !important;
+    justify-content: center ;
+   
+    align-content: space-around;
+}
+
+.closeBtn {
+    padding-bottom: 0px;
+
+}
+.col-12 a{
+    text-decoration: none;
+    color: rgb(227, 225, 225);
+}

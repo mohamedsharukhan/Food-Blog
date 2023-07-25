@@ -1,0 +1,22 @@
+#footer{
+    background-color:black ;
+   
+}
+#footer ul{
+    background-color:black ;
+    display: flex;
+    justify-content:end;
+    padding-right: 4vw;
+
+    
+}
+#footer ul li{
+   
+    color:rgb(244, 235, 235)  ;
+    padding-left: 3vw;
+    font-size: small;
+
+   
+}
+
+

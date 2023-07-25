@@ -1,0 +1,28 @@
+
+nav{
+	background-color: beige;
+}
+
+.col-4 li a{
+    text-decoration: none;
+    color: black;
+    font-size:x-small;
+    margin-left: 20px;
+
+  }
+  .col-4 li{
+    list-style: none;
+
+  }
+  .logo img{
+   height: 30px;
+  
+
+  }
+  ul{
+    display: flex;
+   
+  }
+  .header{
+    height: 30px;
+  }
