@@ -17,15 +17,15 @@ function Owlpage() {
 
 
   return (
-    <>
-      <div className="container">
+    <main className='p-5'>
+      <div className="container p-5">
 
         <div className="row justify-content-center align-items-center g-2">
           <div className="col-8"> 
            <h1>{heading}</h1>
             </div>
 
-          <div className="col-8 "> 
+          <div className="col-8 p-5 "> 
           <img src={imgs} alt="" />
           </div>
             
@@ -36,7 +36,7 @@ function Owlpage() {
           </div>
         </div>
 
-      </>
+      </main>
       )
 }
 

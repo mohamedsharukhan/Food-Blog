@@ -1,47 +1,43 @@
-import React from 'react'
+import React from "react";
 
-import { Link } from 'react-router-dom';
-
-
+import { Link } from "react-router-dom";
 
 function OwlDiv(props) {
-    // card div
+  // card div
 
-    const { img, heading, content, para, date, } = props.cartValue;
+  const { img, heading, content, para, date } = props.cartValue;
 
-    //   const cartList=props.cartValue;
+  //   const cartList=props.cartValue;
 
-    return (
-        <div className='page'>
+  return (
+    <div className="page">
+      <a href={"Owlpage?id=" + props.indexVal}>
+{/* owlpage oru component */}
 
-            <a href={'Owlpage?id=' + props.itemTwo} >
+        {/* pass value to quary params */}
+        {/* <a href={'Owlpage?id=' + props.indexVal} > */}
 
-                {/* <a href={'Owlpage?id='+props.itemTwo+'&name='+}> */}
+        {/* <a href={'Owlpage?id='+props.indexVal+'&name='+}> */}
 
-                {/* <Link to={'./Owlpage?id='+props.itemTwo}>  */}
+        {/* <Link to={'./Owlpage?id='+props.itemTwo}>  */}
 
-                <div className='owldiv'>
-
-                    <div className='owlimg'>
-                        <img className="img" src={img} />
-
-                    </div>
-                    <div className='owlText'>
-                        
-                        <h5>{heading}</h5>
-                        <h2>{content}</h2>
-                        <div>
-                            <a href="">{para}</a>
-                            <span datetime="2022-06-11T22:36:00-07:00">{date}</span>
-                        </div>
-                    </div>
-                </div>
-                {/* </Link> */}
-
-            </a>
-
+        <div className="owldiv">
+          <div className="owlimg">
+            <img className="img" src={img} />
+          </div>
+          <div className="owlText">
+            <h5>{heading}</h5>
+            <h2>{content}</h2>
+            <div>
+              <a href="">{para}</a>
+              <span datetime="2022-06-11T22:36:00-07:00">{date}</span>
+            </div>
+          </div>
         </div>
-    )
+        {/* </Link> */}
+      </a>
+    </div>
+  );
 }
 
-export default OwlDiv
+export default OwlDiv;

@@ -3,6 +3,7 @@ import sliderImgTwo from './assets/img/listOne/F2.jpg'
 import sliderImgThree from './assets/img/listOne/F3.jpg'
 import sliderImgFour from './assets/img/listOne/F4.jpg'
 import sliderImgFive from './assets/img/listOne/F11.jpg'
+
 export const cardValue = [
     {
         img: sliderImgOne,

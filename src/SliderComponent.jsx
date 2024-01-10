@@ -19,10 +19,10 @@ function SliderComponent() {
 
 
     return (
-        <>
+        <main className=''>
             <HeaderComponent />
 
-            <div className='container-fluid owlslider' >
+            <div className='container-fluid owlslider ' >
                 <OwlCarousel items={3}
                     className="owl-theme"
                     loop
@@ -31,12 +31,12 @@ function SliderComponent() {
 
 
                     {cardValue.map((item, index) => (
-                        <OwlDiv cartValue={item} itemTwo={index} />
+                        <OwlDiv cartValue={item} indexVal={index} />
                     ))}
 
                 </OwlCarousel>
             </div>
-        </>
+        </main>
         // , index
         // key={index} 
 
