@@ -37,8 +37,7 @@ function SliderComponent() {
                 </OwlCarousel>
             </div>
         </main>
-        // , index
-        // key={index} 
+     
 
     )
 }

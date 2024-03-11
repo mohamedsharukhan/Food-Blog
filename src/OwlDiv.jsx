@@ -11,7 +11,7 @@ function OwlDiv(props) {
 
   return (
     <div className="page">
-      <a href={"Owlpage?id=" + props.indexVal}>
+      <Link to={"Owlpage?id=" + props.indexVal}>
 {/* owlpage oru component */}
 
         {/* pass value to quary params */}
@@ -29,13 +29,13 @@ function OwlDiv(props) {
             <h5>{heading}</h5>
             <h2>{content}</h2>
             <div>
-              <a href="">{para}</a>
+              <Link to={''}>{para}</Link>
               <span datetime="2022-06-11T22:36:00-07:00">{date}</span>
             </div>
           </div>
         </div>
         {/* </Link> */}
-      </a>
+      </Link>
     </div>
   );
 }
